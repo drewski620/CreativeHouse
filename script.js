@@ -10,7 +10,7 @@
             if($(window).scrollTop()) {
                   $('nav').addClass('white');
                   $('nav ul li a').addClass('black');
-                  $('.logo').addClass('black');
+                  $('.logo').addClass('green');
             }
 
             else {
