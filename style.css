@@ -8,31 +8,35 @@ body {
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
 }
-
+/* HERO IMAGE */
 header {
     width: 100%;
     height: 90vh;
     background: url(herroImage.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+/* END OF HERO IMAGE*/
 
-.content {
+
+
+.container {
     width: 94%;
     margin: 4em auto;
     font-size: 20px;
-    line-height: 30px;
+    
     text-align: justify;
 }
 
-.logo img {
-    
+
+/* START OF NAV */
+.logo img { 
     position: fixed;
     float: left;
     margin-top: 10px;
     margin-left: 40px;
-
     width:250px;
     height:auto;
+    
 }
 
 nav {
@@ -40,9 +44,8 @@ nav {
     width: 100%;
     line-height: 60px;
     background-color: white;
-    overflow: auto;
-    
-    
+    overflow: auto;  
+    z-index: 1;
 }
 
 nav ul {
@@ -57,12 +60,11 @@ nav ul {
     transition: 2s;
     font-weight: 700;
     
-    
-    
-
-    
 }
-/* on scroll */
+
+
+
+/*NAV ON SCROLL */
 nav.white {
     background: white;
     opacity: .8;
@@ -73,13 +75,13 @@ nav.white {
     background-color: black;
 }
 
-nav ul li a.black {
+/* nav ul li a.black {
     color:black;
     
     
-}
+} */
 
-/* on scroll  ends*/
+/* NAV ON SCROLL ENDS*/
 
 nav ul li {
     display: inline-block;
@@ -91,9 +93,18 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
+     
     
-    
-    
+}
+/* NAV BUTTON HOVERS */
+nav ul li a:hover {
+   
+    color: darkred;
+    text-decoration: none;
+}
+
+.menu-icon:hover {
+    color: darkred;
 }
 
 .menu-icon {
@@ -113,27 +124,66 @@ nav ul li a {
     
     
 }
+/* END OF NAV */
 
-.creativeHeader {
-    
-    float: left;
+
+
+
+/* UNDER THE RED TILE ROOF*/
+.redRoof {
+    font-size: 34px;
+    color: red;
+    padding-left: 50px;
 }
 
-div.item {
-    vertical-align: top;
+.redRoofText {
+    font-size: 20px;
+}
+.entrance {
+    max-width:100%;
+    height: auto;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
-    width: 500px;
-    float: right;
+    
+    padding-left: 20px;
+    
 }
-img {
-    width: 60%;
-    height: 60%;
-}
-.caption {
-    display: block;
+.picText {
+    text-align: center;
     font-size: 14px;
 }
+
+.whoButton {
+    text-align: center;
+}
+
+/* Homepage Services */
+.servicesHome {
+    font-size: 34px;
+    padding-left: 50px;
+    color: red;
+}
+.lineBreak {
+    color:blue !important;
+}
+
+
+/* QUESTIONS */
+
+.anyQuestions {
+    font-size: 34px;
+    color: darkred;
+    text-align: center;
+}
+.phoneHome {
+    color: black;
+}
+.phoneHome:hover {
+    text-decoration: none;
+    color: red;
+}
+
 @media(max-width: 786px) {
 
     .logo {
@@ -176,12 +226,15 @@ img {
           
           
     }
-    div .item {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 90%;
+    .redRoofText {
+       
+        
+    }
+    .entrance {
+        display: none;
+    }
+    .picText {
+        display: none;
     }
 
 }

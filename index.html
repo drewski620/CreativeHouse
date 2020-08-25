@@ -5,6 +5,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Creative House</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -26,51 +28,75 @@
             </div>
             <div class="menu">
                <ul>
-                  <li><a href="#">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Who We Are</a></li>
                   <li><a href="#">Service</a></li>
-
                   <li><a href="#">Contact</a></li>
                </ul>
             </div>
          </nav>
       </header>
-      <div class="content">
-         <h1 class="creativeHeader">Under the Red Tile Roof</h1>
-         <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
-         </p>
-
-
-         <div class="item">
-            <img src="entrance.jpg" />
-            <span class="caption">Entrance on Brainerd St.</span>
+      <div class="container">
+         <div class="row">
+            <div class="redRoof col-8"> Under the Red Tile Roof</div>
          </div>
-         
+         <div class="row">
+            <p class='redRoofText col-8'>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+               industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+               scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+               into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+               Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+               Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+            <div class="col-4"> <img class="entrance" src="underTheRedTile.jpg" alt="front entrance inside" />
+            </div>
+         </div>
+         <div class="row">
+            <div class="whoButton col-12 col-md-8"><button type="button" class="btn btn-outline-dark">Who We Are</button></div>
+            <span class="picText col-6 col-md-4"></span>
 
+         </div>
+         <hr class='lineBreak'>
 
+         <!-- SERVICES -->
+         <div class="row justify-content-around">
+            <div class="servicesHome col-4"> Services</div>
+         </div>
+         <div class="row">
+            <div class="col-4"> <img class="entrance" src="servicesHome.jpg" alt="Frames being glued together" />
+            </div>
+            <p class='redRoofText col-8'>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+               industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+               scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+               into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+               Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+               Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+            
+         </div>
+         <div class="row">
+            <span class="picText col-6 col-md-4"></span>
+            <div class="whoButton col-12 col-md-8"><button type="button" class="btn btn-outline-dark">Services</button></div>
+           
 
-
-
-
-
-         <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
-         </p>
-
+         </div>
+         <hr class='lineBreak'>
+         <p class="anyQuestions">Have any Questions?? Give us a call <a class="phoneHome" href="tel:+18504343696" target="_blank">(850)4343696</a> or come in at 1200 N. Palafox</h3>
       </div>
-   </div>
-   <script src="script.js"></script>
 
+
+      <script src="script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+         crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
 </body>
 
 </html>
