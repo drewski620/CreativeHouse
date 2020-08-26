@@ -22,7 +22,7 @@ body {
 header {
     width: 100%;
     height: 70vh;
-    background: url(herroImage.jpg) no-repeat 50% 50%;
+    background: url(./images/herroImage.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 /* END OF HERO IMAGE*/
