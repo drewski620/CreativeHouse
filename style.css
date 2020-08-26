@@ -131,7 +131,7 @@ nav ul li a:hover {
 .homeText {
     font-size: 20px;
 }
-
+/* ALTERNATING IMAGES */
 .homeImgages {
     max-width:100%;
     height: auto;
@@ -156,6 +156,8 @@ nav ul li a:hover {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
+    list-style-type: square;
+    
   }
 
 /* QUESTIONS */
@@ -176,6 +178,14 @@ nav ul li a:hover {
 }
 
 /* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE */
+
+.serviceColumns {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-type: square;
+    color: green;
+  }
 
 .serviceHeader {
     font-size: 34px;
