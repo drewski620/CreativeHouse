@@ -129,7 +129,8 @@ nav ul li a:hover {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    padding-top: 60px;    
+    padding-top: 60px; 
+    margin-bottom: 20px;   
 }
 
 .whoButton {
