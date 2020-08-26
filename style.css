@@ -130,29 +130,26 @@ nav ul li a:hover {
 
 
 /* UNDER THE RED TILE ROOF*/
-.redRoof {
+.homeHeader {
     font-size: 34px;
     color: red;
     padding-left: 50px;
 }
 
-.redRoofText {
+.homeText {
     font-size: 20px;
 }
-.entrance {
+.homeImgages {
     max-width:100%;
     height: auto;
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    padding-top: 60px;
     
-    padding-left: 20px;
     
 }
-.picText {
-    text-align: center;
-    font-size: 14px;
-}
+
 
 .whoButton {
     text-align: center;
@@ -167,9 +164,11 @@ nav ul li a:hover {
 .lineBreak {
     color:blue !important;
 }
-.serviceList {
-    float:right;
-}
+.columns {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
 
 /* QUESTIONS */
 
@@ -185,6 +184,23 @@ nav ul li a:hover {
     text-decoration: none;
     color: red;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:990px) {
 
     .entrance {
