@@ -175,6 +175,18 @@ nav ul li a:hover {
     color: red;
 }
 
+/* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE */
+
+.serviceHeader {
+    font-size: 34px;
+    color: blue;
+    
+}
+
+.serviceText {
+    color: red;
+}
+
 
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
