@@ -167,7 +167,9 @@ nav ul li a:hover {
 .lineBreak {
     color:blue !important;
 }
-
+.serviceList {
+    float:right;
+}
 
 /* QUESTIONS */
 
@@ -183,7 +185,12 @@ nav ul li a:hover {
     text-decoration: none;
     color: red;
 }
+@media(max-width:990px) {
 
+    .entrance {
+        display: none;
+    }
+}
 @media(max-width: 786px) {
 
     .logo {
@@ -203,7 +210,7 @@ nav ul li a:hover {
     }
 
     .showing {
-          max-height: 14em;
+          max-height: 18em;
           
           
           
@@ -230,11 +237,8 @@ nav ul li a:hover {
        
         
     }
-    .entrance {
-        display: none;
-    }
-    .picText {
-        display: none;
-    }
+   
+   
+    
 
 }

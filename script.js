@@ -9,12 +9,12 @@
       $(window).on("scroll", function() {
             if($(window).scrollTop()) {
                   $('nav').addClass('white');
-                  $('nav ul li a').addClass('black');
-                  $('.logo').addClass('green');
+                  // $('nav ul li a').addClass('black');
+                  
             }
 
             else {
                   $('nav').removeClass('white');
-                  $('nav ul li a').removeClass('black');
+                  // $('nav ul li a').removeClass('black');
             }
       })
