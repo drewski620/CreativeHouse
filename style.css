@@ -14,6 +14,8 @@ body {
     margin: 4em auto;
     font-size: 20px;    
     text-align: justify;
+    
+    
 }
 
 
@@ -48,13 +50,19 @@ nav {
     z-index: 1;
 }
 
-.logo img { 
+.logo img{ 
     position: fixed;
     float: left;
     margin-top: 10px;
     margin-left: 40px;
     width:250px;
     height:auto;  
+}
+
+.logo :hover {
+    transform: rotate(180deg);
+    
+    
 }
 
 nav ul {
@@ -158,26 +166,57 @@ nav ul li a:hover {
     -moz-columns: 2;
     list-style-type: square;
     
+    
   }
 
-/* QUESTIONS */
+/*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER */
 
-.anyQuestions {
-    font-size: 34px;
-    color: darkred;
+ footer {
+    margin-top: 60px;
+   
+}
+.left {
+    text-align: left;
+}
+
+.middle {
+    padding-top: 10px;
     text-align: center;
 }
 
-.phoneHome {
-    color: black;
+
+.right {
+    padding-top: 10px;
+   text-align: right;
+}
+.footerLinks {
+   
+    color: black !important;
+    
+    
 }
 
-.phoneHome:hover {
+
+.footerLinks:hover {
     text-decoration: none;
-    color: red;
+    color: red !important;
 }
+
+
 
 /* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE *//* SERVICE PAGE */
+
+.whatWeDo {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.howItWorks {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .serviceColumns {
     columns: 3;
@@ -185,6 +224,7 @@ nav ul li a:hover {
     -moz-columns: 3;
     list-style-type: square;
     color: green;
+    margin-left: 76px;
   }
 
 .serviceHeader {
@@ -203,12 +243,13 @@ nav ul li a:hover {
 
 @media(max-width:990px) {
 
+    
     .homeImgages {
         display: none;
     }
 }
 @media(max-width: 786px) {
-
+    
     .logo {
           position: fixed;
           top: 0;
@@ -249,6 +290,19 @@ nav ul li a:hover {
           color: black;
           
           
+    }
+
+    .left {
+        text-align: center;
+    }
+    .middle {
+        text-align: left;
+        
+        
+    }
+    .right {
+        text-align: left;
+        
     }
 
 }
