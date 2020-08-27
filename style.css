@@ -173,12 +173,15 @@ nav ul li a:hover {
 
  footer {
     margin-top: 60px;
-    
-    bottom: 0 !important;
+
    
 }
 .left {
-    text-align: left;
+    
+}
+
+.textLogo {
+    padding-left: 20px;
 }
 
 .middle {
@@ -193,7 +196,7 @@ nav ul li a:hover {
 }
 .footerLinks {
    
-    color: black !important;
+    color: black;
     
     
 }
@@ -201,7 +204,8 @@ nav ul li a:hover {
 
 .footerLinks:hover {
     text-decoration: none;
-    color: red !important;
+    color: red;
+    
 }
 
 
