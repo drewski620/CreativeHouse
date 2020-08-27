@@ -173,6 +173,8 @@ nav ul li a:hover {
 
  footer {
     margin-top: 60px;
+    
+    bottom: 0 !important;
    
 }
 .left {
@@ -242,7 +244,9 @@ nav ul li a:hover {
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
 @media(max-width:990px) {
-
+    .footerText { 
+        font-size: 16px
+    }
     
     .homeImgages {
         display: none;
@@ -290,6 +294,10 @@ nav ul li a:hover {
           color: black;
           
           
+    }
+
+    .footerText {
+        font-size: 20px;
     }
 
     .left {
