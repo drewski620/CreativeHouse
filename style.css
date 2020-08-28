@@ -47,20 +47,32 @@ nav {
     z-index: 1;
 }
 
-.logo img{ 
+/* .logo img{ 
     position: fixed;
     float: left;
     margin-top: 10px;
     margin-left: 40px;
-    width:250px;
-    height:auto;  
+    width: 60px;
+      
+} */
+.windmill {
+    position: fixed;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    width:60px;
+    height:auto; 
+
 }
 
-.logo :hover {
-    transform: rotate(180deg);
-    
-    
+.logoText{
+    position: fixed;
+    width: 280px;
+    margin-left: 100px;
+    height: auto;
 }
+
+
 
 nav ul {
     line-height: 60px;
@@ -110,6 +122,10 @@ nav.white {
 
 
 /* NAV BUTTON HOVERS */
+.windmill:hover {
+    transform: rotate(20deg);    
+}
+
 nav ul li a:hover {
     color: darkred;
     text-decoration: none;
