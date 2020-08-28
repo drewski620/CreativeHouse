@@ -207,6 +207,9 @@ nav ul li a:hover {
     color: red;
     
 }
+.fa-facebook-f:hover {
+    color: blue !important;
+}
 
 
 
@@ -256,7 +259,7 @@ nav ul li a:hover {
         display: none;
     }
 }
-@media(max-width: 786px) {
+@media(max-width: 800px) {
     
     .logo {
           position: fixed;
