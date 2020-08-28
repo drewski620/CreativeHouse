@@ -5,17 +5,14 @@ html, body {
 }
 
 body {
-    font-family: "Helvetica Neue",sans-serif;
-    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: normal;
 }
 
 .container {
     width: 94%;
     margin: 4em auto;
-    font-size: 20px;    
-    text-align: justify;
-    
-    
+    font-size: 20px;      
 }
 
 
@@ -131,9 +128,10 @@ nav ul li a:hover {
 /* HOME MAIN ALTERNATING BLOCKS */
 
 .homeHeader {
-    font-size: 34px;
+    font-size: 30px;
     color: red;
-    
+    font-family:'Poller One', sans-serif;
+    text-transform:uppercase;
 }
 
 .homeText {
@@ -172,6 +170,7 @@ nav ul li a:hover {
 /*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER */
 .footerText {
     font-size: 16px;
+    justify-content:center !important;
 }
  footer {
     margin-top: 60px;
@@ -255,7 +254,8 @@ ul.right {
 
 @media(max-width:990px) {
     .footerText { 
-        font-size: 16px
+        font-size: 16px;
+        justify-content:normal !important;
     }
     
     .homeImgages {
@@ -308,22 +308,14 @@ ul.right {
           
           
     }
-
     .footerText {
-        font-size: 20px;
+        font-size:14px;
     }
-
-    .left {
-        text-align: center;
+    .footerText .col-sm-6 {
+       width:50% !important; 
     }
-    .middle {
-        text-align: left;
-        
-        
-    }
-    .right {
-        text-align: left;
-        
-    }
+    /* ul.middle {
+        padding-inline-start: 0 !important;
+    } */
 
 }
