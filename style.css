@@ -170,7 +170,9 @@ nav ul li a:hover {
   }
 
 /*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER */
-
+.footerText {
+    font-size: 16px;
+}
  footer {
     margin-top: 60px;
 
@@ -186,13 +188,11 @@ nav ul li a:hover {
 
 .middle {
     padding-top: 10px;
-    text-align: center;
 }
 
 
 .right {
     padding-top: 10px;
-   text-align: right;
 }
 .footerLinks {
    
@@ -209,6 +209,9 @@ nav ul li a:hover {
 }
 .fa-facebook-f:hover {
     color: blue !important;
+}
+ul.right {
+    padding-inline-start: 0 !important;
 }
 
 
@@ -257,6 +260,9 @@ nav ul li a:hover {
     
     .homeImgages {
         display: none;
+    }
+    .left {
+        width:100%;
     }
 }
 @media(max-width: 800px) {
