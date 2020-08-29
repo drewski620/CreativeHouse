@@ -164,9 +164,19 @@ nav ul li a:hover {
     margin-bottom: 20px;   
 }
 
-.whoButton {
-    text-align: center;
+.whoBtn a {
+    border-color: red;
+    color: red;
+    background: white;
 }
+
+.whoBtn a:hover {
+    background: black;
+    color: white;
+    border-color: black;
+    
+}
+
 
 /* END OF HOME MAIN ALTERNATING BLOCKS */
 
@@ -182,6 +192,16 @@ nav ul li a:hover {
     
     
   }
+
+  .serviceBtn  a{
+    margin-left: 20px;
+    color: white;
+    background: black
+}
+
+.serviceBtn a:hover {
+    background: red !important;
+}
 
 /*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER *//*FOOTER */
 .footerText {
@@ -277,11 +297,13 @@ ul.right {
     .homeImgages {
         display: none;
     }
+  
+    
     .left {
         width:100%;
     }
 }
-@media(max-width: 800px) {
+@media(max-width: 766px) {
     
     .logo {
           position: fixed;
@@ -324,6 +346,21 @@ ul.right {
           
           
     }
+    .serviceBtn {
+        text-align: center;
+    }
+    .whoBtn {
+        text-align: center;
+        
+    }
+    .whoBtn a{
+        width: 70%;
+    }
+
+    .serviceBtn a{
+        width:70%
+    }
+
     .footerText {
         font-size:14px;
     }
