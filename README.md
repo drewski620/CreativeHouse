@@ -9,3 +9,6 @@ A app made with html, css, and JavaScript
 
 ### Unfishied
 A work in progress, but please take a look at https://drewski620.github.io/CreativeHouse/
+
+### Contributors
+Erin Shimamoto and Andrew Werner
