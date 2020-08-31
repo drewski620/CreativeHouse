@@ -148,6 +148,7 @@ a.navLink:hover:before {
 nav.white {
     background: white;
     opacity: .9;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3)
 }
 /* NAV ON SCROLL ENDS*/
 
@@ -254,6 +255,9 @@ footer .container {
 .left {
     
 }
+img.footerLogo {
+    color: white !important;
+}
 
 .textLogo {
     padding-left: 20px;
@@ -276,7 +280,7 @@ a.footerLinks {
     position: relative;
 }
 a.footerLinks:before {
-    content: "";
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -284,7 +288,7 @@ a.footerLinks:before {
   left: 0;
   background-color: #00669e;
   visibility: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 a.footerLinks:hover:before {
     visibility: visible;
@@ -342,6 +346,9 @@ ul.right {
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
 @media(max-width:990px) {
+    nav ul li a {
+        font-size: 14px;
+    }
     .footerText { 
         font-size: 16px;
         justify-content:normal !important;
