@@ -121,6 +121,27 @@ a.active {
     display: none;
     padding-top:20px;   
 }
+a.navLink {
+    position: relative;
+}
+
+a.navLink:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #a51521;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+a.navLink:hover:before {
+    visibility: visible;
+  transform: scaleX(1);
+}
 
 
 /*NAV ON SCROLL */
@@ -138,6 +159,7 @@ nav.white {
 
 nav ul li a:hover {
     color: #a51521;
+    text-decoration: none;
 }
 
 .menu-icon:hover {
@@ -242,6 +264,25 @@ footer .container {
 }
 .footerLinks {
     color: #fafafa; 
+}
+a.footerLinks {
+    position: relative;
+}
+a.footerLinks:before {
+    content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00669e;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.footerLinks:hover:before {
+    visibility: visible;
+    width: 100%;
+    
 }
 .footerLinks:hover {
     color: #00669e;
