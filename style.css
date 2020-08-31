@@ -255,9 +255,7 @@ footer .container {
 .left {
     
 }
-img.footerLogo {
-    color: white !important;
-}
+
 
 .textLogo {
     padding-left: 20px;
@@ -286,7 +284,7 @@ a.footerLinks:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #00669e;
+  background-color: #fafafa;
   visibility: hidden;
   transition: all 0.5s ease-in-out;
 }
@@ -296,7 +294,7 @@ a.footerLinks:hover:before {
     
 }
 .footerLinks:hover {
-    color: #00669e;
+    color: #fafafa;
     text-decoration: none;
 }
 .fa-facebook-f:hover {
