@@ -204,12 +204,18 @@ a.btn {
     text-transform: uppercase;
     font-weight: bold;
     padding: .375rem 1.75rem;
+    background: linear-gradient(to right, #004568 50%, white 50%);
+    background-size: 220% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
 }
 
 a.btn:hover {
-    color: #004568;
-    border:2px solid #004568;   
+    color: #fafafa;
+    border:2px solid #004568;  
+    background-position: left bottom; 
 }
+
 
 
 /* END OF HOME MAIN ALTERNATING BLOCKS */
@@ -264,6 +270,7 @@ footer .container {
 }
 .footerLinks {
     color: #fafafa; 
+    
 }
 a.footerLinks {
     position: relative;
@@ -348,8 +355,23 @@ ul.right {
     .left {
         width:100%;
     }
+
+    .serviceBtn {
+        text-align: center;
+    }
+    .whoBtn {
+        text-align: center;
+        
+    }
+    .whoBtn a{
+        width: 70%;
+    }
+
+    .serviceBtn a{
+        width:70%
+    }
 }
-@media(max-width: 766px) {
+@media(max-width: 800px) {
     
     .logo {
           position: fixed;
@@ -392,20 +414,15 @@ ul.right {
           
           
     }
-    .serviceBtn {
-        text-align: center;
-    }
-    .whoBtn {
-        text-align: center;
-        
-    }
+
     .whoBtn a{
-        width: 70%;
+        width: 80%;
     }
 
     .serviceBtn a{
-        width:70%
+        width:80%
     }
+   
 
     .footerText {
         font-size:14px;
