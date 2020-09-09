@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     color: #002335;
     
@@ -234,7 +234,7 @@ footer {
 }
 
 footer .container {
-    margin: 4em auto 0 auto;
+    margin: 20px auto 10px auto;
     padding: 30px 0;
 }
 
@@ -307,12 +307,18 @@ ul.right {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #002335;
+    font-size: 30px;
 }
 
 .howItWorks {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family:'Poller One', sans-serif;
+    text-transform:uppercase;
+    color: #002335;
+    text-decoration: underline overline;
 }
 
 .serviceColumns {
@@ -320,18 +326,21 @@ ul.right {
     -webkit-columns: 3;
     -moz-columns: 3;
     list-style-type: square;
-    color: green;
-    margin-left: 76px;
+    color: #002335;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .serviceHeader {
-    font-size: 34px;
-    color: blue;
-    
+    font-size: 30px;
+    color: #a51521;
+    font-family:'Poller One', sans-serif;
+    text-transform:uppercase;
+    margin-bottom:15px;
 }
 
 .serviceText {
-    color: red;
+    color: #002335;
 }
 
 
